@@ -1,8 +1,6 @@
 name: PR Check 7
 
 on:
-  push:
-    branches: [ too-many-PR-checks ]
   pull_request:
     branches: [ too-many-PR-checks ]
 
