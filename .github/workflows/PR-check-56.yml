@@ -9,8 +9,8 @@ on:
   workflow_dispatch:
 
 jobs:
-  check:
+  check-56:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "LGTM"
+      - run: echo "check 56 passed"

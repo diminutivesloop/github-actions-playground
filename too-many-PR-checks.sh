@@ -13,10 +13,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  check:
+  check-$i:
     runs-on: ubuntu-latest
 
     steps:
-      - run: echo "LGTM"
+      - run: echo "check $i passed"
 EOF
 done
