@@ -1,0 +1,16 @@
+name: PR Check 10
+
+on:
+  push:
+    branches: [ too-many-PR-checks ]
+  pull_request:
+    branches: [ too-many-PR-checks ]
+
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+
+    steps:
+      - run: echo "LGTM"
