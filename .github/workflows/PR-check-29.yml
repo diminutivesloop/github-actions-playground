@@ -1,8 +1,4 @@
-#!/bin/zsh
-for i in `seq 1 101`
-do
-cat > .github/workflows/PR-check-$i.yml << EOF
-name: PR Check $i
+name: PR Check 29
 
 on:
   push:
@@ -18,5 +14,3 @@ jobs:
 
     steps:
       - run: echo "LGTM"
-EOF
-done
